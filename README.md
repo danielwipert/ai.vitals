@@ -15,6 +15,7 @@ A plain static site (HTML, one stylesheet, one small script), published with Git
 | `readings/not-started.html` | Door 4: "We haven't started yet, and we want to do it right." |
 | `how-we-work.html` | The steps, the public prices with the honest note, and five promises |
 | `about.html` | About Dan |
+| `sample-report.html` | Sample report on a made-up company (illustrative) |
 | `404.html` | Page not found |
 | `assets/styles.css` | The whole look: Cloud Dancer paper, violet band, highlighter yellow, IBM Plex type, hand marks |
 | `assets/site.js` | Sends the request forms to Formspree without leaving the page |

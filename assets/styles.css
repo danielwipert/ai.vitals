@@ -353,6 +353,32 @@ h1, h2, h3 { font-family: var(--cond); font-weight: 600; margin: 0; color: var(-
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 48px; }
 .cta-row .sign { display: flex; align-items: center; gap: 24px; }
 
+/* ---------- Sample report ---------- */
+.big-figure { margin: 0; font-family: var(--cond); font-weight: 700; font-size: clamp(64px, 8vw, 112px); line-height: 1; letter-spacing: -0.02em; }
+.ledger { width: 100%; border-collapse: collapse; font-size: 16px; }
+.ledger th { text-align: left; font-family: var(--mono); font-size: 12px; font-weight: 400; letter-spacing: 0.04em; padding: 0 12px 10px 0; border-bottom: 2px solid #FFFFFF; }
+.ledger td { padding: 14px 12px 14px 0; border-bottom: 1px solid var(--violet-line); vertical-align: top; }
+.ledger td small { display: block; margin-top: 4px; font-size: 14px; opacity: 0.85; }
+.ledger .amt { text-align: right; font-family: var(--mono); white-space: nowrap; }
+.ledger tfoot td { font-weight: 700; font-size: 18px; border-bottom: 2px solid #FFFFFF; }
+.ledger th:last-child, .ledger td:last-child { padding-right: 0; padding-left: 12px; }
+.sure { display: inline-block; font-family: var(--mono); font-size: 12px; padding: 2px 8px; background: var(--highlight); color: var(--ink); border: 1.5px solid var(--ink); }
+.sure--med { background: transparent; color: #FFFFFF; border-color: #FFFFFF; }
+.ledger--paper { margin-top: 8px; }
+.ledger--paper th { border-bottom-color: var(--ink); color: var(--muted); padding-top: 18px; }
+.ledger--paper td { border-bottom-color: var(--ink); }
+.ledger--paper td small { color: var(--muted); opacity: 1; }
+.ledger--paper tfoot td { border-bottom-color: var(--ink); background: var(--highlight); padding-top: 16px; padding-bottom: 16px; }
+.ledger .rank { font-family: var(--mono); color: var(--violet); width: 44px; }
+.ledger th { white-space: nowrap; }
+@media (max-width: 600px) {
+  .ledger { font-size: 15px; }
+  .ledger th { white-space: normal; }
+  .ledger .rank { width: 28px; }
+  .ledger .amt { white-space: normal; font-size: 14px; }
+  .ledger--paper th:last-child, .ledger--paper td:last-child { font-size: 14px; }
+}
+
 /* ---------- Footer ---------- */
 .site-footer { background: var(--ink); color: #D4D1C9; }
 .site-footer .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; font-size: 13px; }
