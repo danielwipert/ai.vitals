@@ -17,6 +17,8 @@ A plain static site (HTML, one stylesheet, one small script), published with Git
 | `about.html` | About Dan |
 | `sample-report.html` | Sample report on a made-up company (illustrative) |
 | `404.html` | Page not found |
+| `sitemap.xml` | List of pages for Google |
+| `assets/og-image.png` | The preview picture LinkedIn and others show when the site is shared |
 | `assets/styles.css` | The whole look: Cloud Dancer paper, violet band, highlighter yellow, IBM Plex type, hand marks |
 | `assets/site.js` | Sends the request forms to Formspree without leaving the page |
 

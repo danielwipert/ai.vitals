@@ -97,7 +97,7 @@ section, header, footer { position: relative; z-index: 1; }
   color: var(--muted);
   margin: 0;
 }
-.label--violet { color: var(--violet); }
+.label--violet { color: #6E43BF; } /* darker violet so small labels are easy to read */
 .band .label { color: #FFFFFF; }
 
 h1, h2, h3 { font-family: var(--cond); font-weight: 600; margin: 0; color: var(--head); }
