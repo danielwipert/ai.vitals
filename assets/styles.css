@@ -326,7 +326,7 @@ h1, h2, h3 { font-family: var(--cond); font-weight: 600; margin: 0; color: var(-
 
 /* ---------- Request form ---------- */
 .request { padding: 88px 0 96px; }
-.request .split > :first-child p { margin: 0; font-size: 18px; }
+.request .split > :first-child p:not(.label):not(.pen-note) { margin: 0; font-size: 18px; }
 .form { display: flex; flex-direction: column; gap: 20px; }
 .field { display: flex; flex-direction: column; gap: 8px; }
 .field label { font-size: 15px; font-weight: 600; }
@@ -343,7 +343,8 @@ h1, h2, h3 { font-family: var(--cond); font-weight: 600; margin: 0; color: var(-
 }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .form-note { margin: 0; font-size: 14px; }
-.form-status { margin: 0; font-size: 16px; font-weight: 600; min-height: 1.5em; }
+.form-status { margin: 0; font-size: 16px; font-weight: 600; }
+.form-status:empty { display: none; }
 .form-status.ok { background: var(--highlight); color: var(--ink); padding: 14px 16px; border: 2px solid var(--ink); }
 .form-status.err { background: #FFFFFF; color: #8A1C0B; padding: 14px 16px; border: 2px solid #8A1C0B; }
 
