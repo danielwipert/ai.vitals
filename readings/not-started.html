@@ -126,7 +126,6 @@
         <p class="pen-note" style="font-size: 36px; margin-top: 6px;">— Dan</p>
       </div>
       <form class="form" data-request action="https://formspree.io/f/mqpporre" method="POST" aria-label="Request a conversation">
-        <p class="door-tag">YOU CAME FROM: READING 04, NOT STARTED YET</p>
         <input type="hidden" name="door" value="Reading 04, not started yet">
         <input type="hidden" name="_subject" value="AI Vitals request (Reading 04, not started yet)">
         <div class="hp" aria-hidden="true"><label for="notstarted-gotcha">Leave this empty</label><input id="notstarted-gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off"></div>
@@ -139,7 +138,7 @@
           <input id="notstarted-email" name="email" type="email" autocomplete="email" required>
         </div>
         <div class="field">
-          <label for="notstarted-rev">2. Rough company revenue</label>
+          <label for="notstarted-rev">2. Rough company revenue <span style="font-weight: 400;">(so I can suggest the right starting point)</span></label>
           <select id="notstarted-rev" name="revenue" required>
             <option value="">Choose one</option>
             <option>Under $100M</option>
@@ -153,7 +152,7 @@
           <textarea id="notstarted-why" name="reason" rows="3" required></textarea>
         </div>
         <div class="field">
-          <label for="notstarted-date">4. Is there a date coming up that matters? (budget, board meeting, year-end)</label>
+          <label for="notstarted-date">4. Is there a date coming up that matters? (budget, board meeting, year-end) <span style="font-weight: 400;">Optional.</span></label>
           <input id="notstarted-date" name="date_that_matters" type="text">
         </div>
         <div><button class="btn" type="submit">Request a conversation</button></div>
